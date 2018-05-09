@@ -1,0 +1,132 @@
+    1  su
+    2  pwd
+    3  ls
+    4  cd 桌面/
+  
+
+   00000000000000000000000000000000000000000000
+
+   47  cd /home/cc/
+   48  pdw
+   49  pwd
+   50  cd ..
+   51  pwd
+   52  ls
+   53  cd cc/
+   54  ls
+   55  mkdir 1804
+   56  ls
+   57  rm 1804/
+   58  ls
+   59  rm -rf 1804/
+   60  ls
+   61  mkdir p1804
+   62  ls
+   63  cd p1804/
+   64  ls
+   65  touch 01.txt
+   66  ls
+   67  touch 1.c
+   68  touch ubuntu.iso
+   69  ls
+   70  ls -l
+   71  cd ~
+   72  pwd
+   73  ls
+   74  mkdir p1804
+   75  cd p1804/
+   76  ls
+   77  touch 1.rar
+   78  ls
+   79  touch apple.jpg
+   80  ls
+   81  history 
+   82  ls
+   83  rm 1.c
+   84  ls
+   85  rm *
+   86  ls
+   87  man ls
+   88  man cd
+   89  cd rm
+   90  man rm
+   91  cd ls
+   92  pwd
+   93  ls
+   94  cd p1804/
+   95  ls
+   96  mkdir 1
+   97  mkdir 2
+   98  cd 1
+   99  mkdir 3/4/5/6/7
+  100  mkdir 3/4/5/6/7 -rf
+  101  ls
+  102  pwd
+  103  ls
+  104  cd ..
+  105  ls
+  106  cd 2
+  107  ls
+  108  cd ..
+  109  ls
+  110  cd 1
+  111  mkdir 2
+  112  cd 2
+  113  mkdir 3
+  114  ls
+  115  cd .,.
+  116  ls
+  117  pwd
+  118  cd /home
+  119  pwd
+  120  cd -
+  121  cd /
+  122  cd home/
+  123  tree
+  124  sudo apt install tree
+  125  tree
+  126  cd cc
+  127  ls
+  128  tree 
+  129  cd ..
+  130  ls
+  131  cd cc/
+  132  ls
+  133  cd p1804/
+  134  tree
+  135  sl
+  136  ls
+  137  exit
+  138  poweroff 
+  139  s
+  140  ls
+  141  cd /
+  142  ls
+  143  pwd
+  144  tree
+  145  ls
+  146  pwd
+  147  ls
+  148  cd /home/cc/p1804/p02/
+  149  cd -
+  150  ls
+  151  cd home/
+  152  ls
+  153  pwd
+  154  tree ./cc/p1804/
+  155  tree /home/cc/p1804/
+  156  ls
+  157  cd ./cc/p1804/p02
+  158  ls
+  159  touch  2.py
+  160  ls
+  161  ls -l
+  162  ln -s 11.txt 22.txt
+  163  ls -l
+  164  rm 11.txt 
+  165  ls -l
+  166  gedit  22.txt
+  167  rm 22.txt 
+  168  ls
+  169  ls -l
+  170  history > 11.txt

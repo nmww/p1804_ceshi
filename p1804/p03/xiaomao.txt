@@ -1,0 +1,360 @@
+    1  su
+    2  pwd
+    3  ls
+    4  cd 桌面/
+    5  ls
+    6  sudo tar zxvf VMwareTools-10.1.6-5214329.tar.gz ./
+    7  tar 
+    8  tar zxvf 
+    9  tar zxvf VMwareTools-10.1.6-5214329.tar.gz 
+   10  history 
+   11  ls
+   12  cd vmware-tools-distrib/
+   13  ls
+   14  sudo ./vmware-install.pl 
+   15  ls
+   16  reboot 
+   17  ls
+   18  ls -a
+   19  ls -l
+   20  ls -al
+   21  ls -a -l
+   22  cls
+   23  clr
+   24  clear
+   25  pwd
+   26  ls
+   27  cd 文档
+   28  ls
+   29  pwd
+   30  cd /
+   31  pwd
+   32  ls
+   33  cd mnt/
+   34  cd ...
+   35  ls
+   36  cd ..
+   37  ls
+   38  pwd
+   39  ls -l
+   40  cd tmp/
+   41  pwd
+   42  ls
+   43  cd ..
+   44  ls
+   45  pdw
+   46  pwd
+   47  cd /home/cc/
+   48  pdw
+   49  pwd
+   50  cd ..
+   51  pwd
+   52  ls
+   53  cd cc/
+   54  ls
+   55  mkdir 1804
+   56  ls
+   57  rm 1804/
+   58  ls
+   59  rm -rf 1804/
+   60  ls
+   61  mkdir p1804
+   62  ls
+   63  cd p1804/
+   64  ls
+   65  touch 01.txt
+   66  ls
+   67  touch 1.c
+   68  touch ubuntu.iso
+   69  ls
+   70  ls -l
+   71  cd ~
+   72  pwd
+   73  ls
+   74  mkdir p1804
+   75  cd p1804/
+   76  ls
+   77  touch 1.rar
+   78  ls
+   79  touch apple.jpg
+   80  ls
+   81  history 
+   82  ls
+   83  rm 1.c
+   84  ls
+   85  rm *
+   86  ls
+   87  man ls
+   88  man cd
+   89  cd rm
+   90  man rm
+   91  cd ls
+   92  pwd
+   93  ls
+   94  cd p1804/
+   95  ls
+   96  mkdir 1
+   97  mkdir 2
+   98  cd 1
+   99  mkdir 3/4/5/6/7
+  100  mkdir 3/4/5/6/7 -rf
+  101  ls
+  102  pwd
+  103  ls
+  104  cd ..
+  105  ls
+  106  cd 2
+  107  ls
+  108  cd ..
+  109  ls
+  110  cd 1
+  111  mkdir 2
+  112  cd 2
+  113  mkdir 3
+  114  ls
+  115  cd .,.
+  116  ls
+  117  pwd
+  118  cd /home
+  119  pwd
+  120  cd -
+  121  cd /
+  122  cd home/
+  123  tree
+  124  sudo apt install tree
+  125  tree
+  126  cd cc
+  127  ls
+  128  tree 
+  129  cd ..
+  130  ls
+  131  cd cc/
+  132  ls
+  133  cd p1804/
+  134  tree
+  135  sl
+  136  ls
+  137  exit
+  138  poweroff 
+  139  ls
+  140  rm 11.java 
+  141  ls
+  142  cd
+  143  ls
+  144  cd Destop
+  145  ls
+  146  cd Desktop
+  147  ls
+  148  ping www.baidu.com
+  149  export LC_ALL=C
+  150  exit
+  151  ls
+  152  man ls 
+  153  ls -h 
+  154  ls -lh
+  155  pwd
+  156  ls -lh > 1.txt
+  157  ls
+  158  cat 1.txt 
+  159  gedit 1.txt 
+  160  pwd >> 1.txt
+  161  cat 1.txt 
+  162  ls
+  163  cd p1804/
+  164  ls
+  165  cd p03
+  166  ls
+  167  rm test1.tar.gz 
+  168  rm test.tar 
+  169  ls
+  170  tar -cvf 1804.tar 123.py 1.txt 2.txt test
+  171  ls
+  172  mkdir testtar
+  173  ls
+  174  mv 1804.tar ./testtar/
+  175  tree
+  176  ls
+  177  cd test
+  178  ls
+  179  cd ..
+  180  ls
+  181  cd testtar/
+  182  ls
+  183  tar -xvf 1804.tar 
+  184  ls -l
+  185  cd ..
+  186  ls
+  187  history 
+  188  ls
+  189  rm -rf testtar/
+  190  ls
+  191  tar -cvf 1804.tar *
+  192  ls
+  193  tar -cvf txt.tar *.txt
+  194  ls
+  195  rm *
+  196  rm -rf *
+  197  ls
+  198  touch xiaomao.txt
+  199  ls
+  200  history > xiaomao.txt
+总用量 13M
+-rwxr-xr-x 1 root root 1014K 5月  16  2017 bash
+-rwxr-xr-x 1 root root   31K 5月  20  2015 bunzip2
+-rwxr-xr-x 1 root root  1.9M 8月  19  2015 busybox
+-rwxr-xr-x 1 root root   31K 5月  20  2015 bzcat
+lrwxrwxrwx 1 root root     6 4月  12 23:51 bzcmp -> bzdiff
+-rwxr-xr-x 1 root root  2.1K 5月  20  2015 bzdiff
+lrwxrwxrwx 1 root root     6 4月  12 23:51 bzegrep -> bzgrep
+-rwxr-xr-x 1 root root  4.8K 5月  20  2015 bzexe
+lrwxrwxrwx 1 root root     6 4月  12 23:51 bzfgrep -> bzgrep
+-rwxr-xr-x 1 root root  3.6K 5月  20  2015 bzgrep
+-rwxr-xr-x 1 root root   31K 5月  20  2015 bzip2
+-rwxr-xr-x 1 root root   15K 5月  20  2015 bzip2recover
+lrwxrwxrwx 1 root root     6 4月  12 23:51 bzless -> bzmore
+-rwxr-xr-x 1 root root  1.3K 5月  20  2015 bzmore
+-rwxr-xr-x 1 root root   51K 3月   3  2017 cat
+-rwxr-xr-x 1 root root   15K 2月   7  2016 chacl
+-rwxr-xr-x 1 root root   59K 3月   3  2017 chgrp
+-rwxr-xr-x 1 root root   55K 3月   3  2017 chmod
+-rwxr-xr-x 1 root root   63K 3月   3  2017 chown
+-rwxr-xr-x 1 root root   11K 9月  23  2016 chvt
+-rwxr-xr-x 1 root root  148K 3月   3  2017 cp
+-rwxr-xr-x 1 root root  139K 2月  18  2016 cpio
+-rwxr-xr-x 1 root root  151K 2月  18  2016 dash
+-rwxr-xr-x 1 root root   67K 3月   3  2017 date
+-rwxr-xr-x 1 root root   71K 3月   3  2017 dd
+-rwxr-xr-x 1 root root   96K 3月   3  2017 df
+-rwxr-xr-x 1 root root  124K 3月   3  2017 dir
+-rwxr-xr-x 1 root root   60K 6月  15  2017 dmesg
+lrwxrwxrwx 1 root root     8 4月  12 23:51 dnsdomainname -> hostname
+lrwxrwxrwx 1 root root     8 4月  12 23:51 domainname -> hostname
+-rwxr-xr-x 1 root root   81K 9月  23  2016 dumpkeys
+-rwxr-xr-x 1 root root   31K 3月   3  2017 echo
+-rwxr-xr-x 1 root root   51K 4月  26  2014 ed
+-rwxr-xr-x 1 root root   36K 7月  14  2015 efibootmgr
+-rwxr-xr-x 1 root root    28 4月  29  2016 egrep
+-rwxr-xr-x 1 root root   27K 3月   3  2017 false
+-rwxr-xr-x 1 root root   11K 9月  23  2016 fgconsole
+-rwxr-xr-x 1 root root    28 4月  29  2016 fgrep
+-rwxr-xr-x 1 root root   49K 6月  15  2017 findmnt
+-rwxr-xr-x 1 root root   36K 2月   7  2016 fuser
+-rwsr-xr-x 1 root root   31K 7月  12  2016 fusermount
+-rwxr-xr-x 1 root root   24K 2月   7  2016 getfacl
+-rwxr-xr-x 1 root root  207K 4月  29  2016 grep
+-rwxr-xr-x 1 root root  2.3K 10月 27  2014 gunzip
+-rwxr-xr-x 1 root root  5.8K 10月 27  2014 gzexe
+-rwxr-xr-x 1 root root   96K 10月 27  2014 gzip
+-rwxr-xr-x 1 root root  189K 3月   1  2016 hciconfig
+-rwxr-xr-x 1 root root   15K 11月 24  2015 hostname
+-rwxr-xr-x 1 root root  368K 5月   6  2017 ip
+-rwxr-xr-x 1 root root  488K 7月  19  2017 journalctl
+-rwxr-xr-x 1 root root   11K 9月  23  2016 kbd_mode
+-rwxr-xr-x 1 root root   23K 11月 22  2016 kill
+-rwxr-xr-x 1 root root  148K 7月  25  2017 kmod
+-rwxr-xr-x 1 root root  167K 4月   5  2017 less
+-rwxr-xr-x 1 root root   11K 4月   5  2017 lessecho
+lrwxrwxrwx 1 root root     8 4月  12 23:51 lessfile -> lesspipe
+-rwxr-xr-x 1 root root   20K 4月   5  2017 lesskey
+-rwxr-xr-x 1 root root  7.6K 4月   5  2017 lesspipe
+-rwxr-xr-x 1 root root   55K 3月   3  2017 ln
+-rwxr-xr-x 1 root root  109K 9月  23  2016 loadkeys
+-rwxr-xr-x 1 root root   47K 5月  17  2017 login
+-rwxr-xr-x 1 root root  444K 7月  19  2017 loginctl
+-rwxr-xr-x 1 root root  103K 1月  29  2017 lowntfs-3g
+-rwxr-xr-x 1 root root  124K 3月   3  2017 ls
+-rwxr-xr-x 1 root root   76K 6月  15  2017 lsblk
+lrwxrwxrwx 1 root root     4 4月  12 23:51 lsmod -> kmod
+-rwxr-xr-x 1 root root   76K 3月   3  2017 mkdir
+-rwxr-xr-x 1 root root   63K 3月   3  2017 mknod
+-rwxr-xr-x 1 root root   39K 3月   3  2017 mktemp
+-rwxr-xr-x 1 root root   39K 6月  15  2017 more
+-rwsr-xr-x 1 root root   40K 6月  15  2017 mount
+-rwxr-xr-x 1 root root   15K 6月  15  2017 mountpoint
+lrwxrwxrwx 1 root root    20 4月  12 23:51 mt -> /etc/alternatives/mt
+-rwxr-xr-x 1 root root   68K 2月  18  2016 mt-gnu
+-rwxr-xr-x 1 root root  128K 3月   3  2017 mv
+-rwxr-xr-x 1 root root  204K 2月  15  2017 nano
+lrwxrwxrwx 1 root root    20 4月  12 23:51 nc -> /etc/alternatives/nc
+-rwxr-xr-x 1 root root   31K 12月  4  2012 nc.openbsd
+lrwxrwxrwx 1 root root    24 4月  12 23:51 netcat -> /etc/alternatives/netcat
+-rwxr-xr-x 1 root root  117K 6月  30  2014 netstat
+-rwxr-xr-x 1 root root  663K 7月  19  2017 networkctl
+lrwxrwxrwx 1 root root     8 4月  12 23:51 nisdomainname -> hostname
+-rwsr-xr-x 1 root root  139K 1月  29  2017 ntfs-3g
+-rwxr-xr-x 1 root root   11K 1月  29  2017 ntfs-3g.probe
+-rwxr-xr-x 1 root root   67K 1月  29  2017 ntfs-3g.secaudit
+-rwxr-xr-x 1 root root   18K 1月  29  2017 ntfs-3g.usermap
+-rwxr-xr-x 1 root root   27K 1月  29  2017 ntfscat
+-rwxr-xr-x 1 root root   31K 1月  29  2017 ntfscluster
+-rwxr-xr-x 1 root root   35K 1月  29  2017 ntfscmp
+-rwxr-xr-x 1 root root   35K 1月  29  2017 ntfsfallocate
+-rwxr-xr-x 1 root root   39K 1月  29  2017 ntfsfix
+-rwxr-xr-x 1 root root   55K 1月  29  2017 ntfsinfo
+-rwxr-xr-x 1 root root   32K 1月  29  2017 ntfsls
+-rwxr-xr-x 1 root root   31K 1月  29  2017 ntfsmove
+-rwxr-xr-x 1 root root   39K 1月  29  2017 ntfstruncate
+-rwxr-xr-x 1 root root   47K 1月  29  2017 ntfswipe
+lrwxrwxrwx 1 root root     6 4月  12 23:51 open -> openvt
+-rwxr-xr-x 1 root root   19K 9月  23  2016 openvt
+lrwxrwxrwx 1 root root    14 4月  12 23:51 pidof -> /sbin/killall5
+-rwsr-xr-x 1 root root   44K 5月   8  2014 ping
+-rwsr-xr-x 1 root root   44K 5月   8  2014 ping6
+-rwxr-xr-x 1 root root   35K 5月  11  2016 plymouth
+-rwxr-xr-x 1 root root   96K 11月 22  2016 ps
+-rwxr-xr-x 1 root root   31K 3月   3  2017 pwd
+lrwxrwxrwx 1 root root     4 4月  12 23:51 rbash -> bash
+-rwxr-xr-x 1 root root   39K 3月   3  2017 readlink
+-rwxr-xr-x 1 root root    89 4月  26  2014 red
+-rwxr-xr-x 1 root root   59K 3月   3  2017 rm
+-rwxr-xr-x 1 root root   39K 3月   3  2017 rmdir
+lrwxrwxrwx 1 root root     4 4月  12 23:51 rnano -> nano
+-rwxr-xr-x 1 root root   19K 1月  27  2016 run-parts
+-rwxr-xr-x 1 root root   72K 2月  12  2016 sed
+-rwxr-xr-x 1 root root   36K 2月   7  2016 setfacl
+-rwxr-xr-x 1 root root   40K 9月  23  2016 setfont
+-rwxr-xr-x 1 root root   31K 2月   1  2017 setupcon
+lrwxrwxrwx 1 root root     4 4月  12 23:51 sh -> dash
+lrwxrwxrwx 1 root root     4 4月  12 23:51 sh.distrib -> dash
+-rwxr-xr-x 1 root root   31K 3月   3  2017 sleep
+-rwxr-xr-x 1 root root  114K 5月   6  2017 ss
+lrwxrwxrwx 1 root root     7 4月  12 23:51 static-sh -> busybox
+-rwxr-xr-x 1 root root   71K 3月   3  2017 stty
+-rwsr-xr-x 1 root root   40K 5月  17  2017 su
+-rwxr-xr-x 1 root root   31K 3月   3  2017 sync
+-rwxr-xr-x 1 root root  645K 7月  19  2017 systemctl
+lrwxrwxrwx 1 root root    20 4月  12 23:51 systemd -> /lib/systemd/systemd
+-rwxr-xr-x 1 root root   51K 7月  19  2017 systemd-ask-password
+-rwxr-xr-x 1 root root   39K 7月  19  2017 systemd-escape
+-rwxr-xr-x 1 root root   63K 7月  19  2017 systemd-hwdb
+-rwxr-xr-x 1 root root  276K 7月  19  2017 systemd-inhibit
+-rwxr-xr-x 1 root root   47K 7月  19  2017 systemd-machine-id-setup
+-rwxr-xr-x 1 root root   35K 7月  19  2017 systemd-notify
+-rwxr-xr-x 1 root root  131K 7月  19  2017 systemd-tmpfiles
+-rwxr-xr-x 1 root root   67K 7月  19  2017 systemd-tty-ask-password-agent
+-rwxr-xr-x 1 root root   23K 6月  15  2017 tailf
+-rwxr-xr-x 1 root root  375K 11月 18  2016 tar
+-rwxr-xr-x 1 root root   11K 1月  27  2016 tempfile
+-rwxr-xr-x 1 root root   63K 3月   3  2017 touch
+-rwxr-xr-x 1 root root   27K 3月   3  2017 true
+-rwxr-xr-x 1 root root  439K 7月  19  2017 udevadm
+-rwxr-xr-x 1 root root   14K 7月  12  2016 ulockmgr_server
+-rwsr-xr-x 1 root root   27K 6月  15  2017 umount
+-rwxr-xr-x 1 root root   31K 3月   3  2017 uname
+-rwxr-xr-x 1 root root  2.3K 10月 27  2014 uncompress
+-rwxr-xr-x 1 root root  2.7K 9月  23  2016 unicode_start
+-rwxr-xr-x 1 root root  124K 3月   3  2017 vdir
+-rwxr-xr-x 1 root root   31K 6月  15  2017 wdctl
+-rwxr-xr-x 1 root root   946 1月  27  2016 which
+-rwxr-xr-x 1 root root   27K 1月  19  2016 whiptail
+lrwxrwxrwx 1 root root     8 4月  12 23:51 ypdomainname -> hostname
+-rwxr-xr-x 1 root root  1.9K 10月 27  2014 zcat
+-rwxr-xr-x 1 root root  1.8K 10月 27  2014 zcmp
+-rwxr-xr-x 1 root root  5.7K 10月 27  2014 zdiff
+-rwxr-xr-x 1 root root   140 10月 27  2014 zegrep
+-rwxr-xr-x 1 root root   140 10月 27  2014 zfgrep
+-rwxr-xr-x 1 root root  2.1K 10月 27  2014 zforce
+-rwxr-xr-x 1 root root  5.8K 10月 27  2014 zgrep
+-rwxr-xr-x 1 root root  2.0K 10月 27  2014 zless
+-rwxr-xr-x 1 root root  1.9K 10月 27  2014 zmore
+-rwxr-xr-x 1 root root  5.0K 10月 27  2014 znew
