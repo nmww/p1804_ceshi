@@ -16,7 +16,7 @@ git remote add origin git@github.com:nmww/p1804_ceshi.git
 git push -u origin master
 
 ```
-# ¿¿¿¿
+# git push use
 
 ```
 git add .
