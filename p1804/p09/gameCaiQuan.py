@@ -40,7 +40,8 @@ while userInput=='begin': # True
 	# user 代表用户输入的 拳脚
 	user = input("请用户出小拳拳：") # 直接输入 石头 剪刀 布
 	if user == 'q':
-		userInput = 'q'
+            break
+	    #userInput = 'q'
 	# pc 代表计算机 随机出来的 整数
 	pc = random.randint(1,3) # 2; 3
 	#print ("美女电脑出了：%d " % pc)
