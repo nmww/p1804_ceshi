@@ -32,12 +32,10 @@ git push -u origin master
 
 ***
 * 1804 youku video
-    
-[YOUKU_1804测试](http://list.youku.com/albumlist/show/id_51742106.html)
+    * [YOUKU_1804测试](http://list.youku.com/albumlist/show/id_51742106.html)
 
 * 1804 QQ video
-    
-[人工智能-教学录制 01月](http://list.youku.com/albumlist/show/id_51507314)
+    * [人工智能-教学录制 01月](http://list.youku.com/albumlist/show/id_51507314)
 
 * jianshu简书 地址
     * [简书地址](https://www.jianshu.com/p/f2ec01337514)
