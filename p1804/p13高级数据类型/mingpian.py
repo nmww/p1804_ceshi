@@ -1,5 +1,6 @@
 
 
+import card_tools
 
 list_card = [] # 空列表，用于保存名片dic
 '''
@@ -23,6 +24,7 @@ def systemMenu():
 def tuichu():
     print ("成功退出名片管理系统")
 
+'''
 def newCard():
     print('*'*50)
     print("开始创建名片")
@@ -34,6 +36,7 @@ def newCard():
     print(list_card)
     print("名片保存成功，姓名是：%s" % dic['name'])
     pass
+'''
 
 def sAll():
     pass
@@ -50,7 +53,7 @@ systemMenu()
 while True:
     user = int(input("请数如你希望的操作对应的编号："))
     if user == 1:  # 创建名片
-        newCard()
+        card_tools.newCard()
     elif user== 2: # 查看全部
         sAll()
     elif user== 3:  # 查看一个名片
