@@ -1,5 +1,23 @@
 # p1804_ceshi
 
+
+
+***
+* 1804 youku video
+    * [YOUKU_1804测试](http://list.youku.com/albumlist/show/id_51742106.html)
+
+* 1804 QQ video
+    * [人工智能-教学录制 01月](http://list.youku.com/albumlist/show/id_51507314)
+
+* 1804 项目模拟面试 video(zw)
+    * [1804项目模拟面试视频](http://list.youku.com/albumlist/show/id_51751462)
+
+* jianshu简书 地址
+    * [简书地址](https://www.jianshu.com/p/f2ec01337514)
+
+***
+
+
 ## 阿里云 ACE 北京 官方 钉钉群 
 
 > 所有技术爱好者的家园，众多资源学习，朋友都在这里
