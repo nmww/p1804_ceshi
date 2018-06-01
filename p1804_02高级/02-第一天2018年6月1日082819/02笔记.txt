@@ -1,5 +1,5 @@
 
-
+----------------------
 vi 
 chmod 147
 chmod 777 rwx   
@@ -26,5 +26,34 @@ b:0000
 装饰器；网络编程；
 单利模式；
 
-
-
+--------------------------
+1. chmod  在 linux 中的 权限设定规则
+	ugo   rwx   777  
+	二进制
+2. 文件的  open （rwa  r+ rb rb+）
+	f = open('1.txt','r')
+3. 文件属性操作
+	file.name() #查看文件名字  
+	file.mode() #查看文件打开模式
+	file.colsed() #查看文件的关闭状态
+4. 文件的读写位置操作
+	主要： 1）下标； 2）二进制的模式读写 移动下标  （rb+ ; wb+）
+	r模式：可以从左开始移动；  b模式：才可以从文件后边向前移动
+	p = file.tell() #获得当前的 光标（游标）位置
+	p = file.seek(偏移数,起始位置) #
+		file.seek(1,0)   	#0从文件开头，向后（右）偏移1个位置
+		file.seek(2,1)		#1从当前游标位置，向后偏移 2个位置
+		file.seek(-3,2) 	#2从文件结尾，向前（左）偏移 3个位置
+5. 文件 重命名 删除
+	import  os      
+	os.rename('old.txt','new.txt')
+	os.remove('fileName')
+6. 创建文件夹、 获取目录； 设置默认目录；目录列表
+	import os
+	os.mkdir('文件夹') #创建文件夹
+	os.getcwd() #获得当前目录
+	os.chdir('../') #修改默认的目录
+	os.rmdir('文件夹') #删除文件夹,只限空文件夹
+	删除带文件的目录
+	import shutil
+	shutil.rmtree('文件夹') #删除含有文件的目录
