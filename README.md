@@ -3,6 +3,9 @@
 
 
 ***
+* 1804 第二月 python 高级
+	* [优酷_1804高级视频](http://list.youku.com/albumlist/show/id_51762436.html)
+	
 * 1804 youku video
     * [YOUKU_1804测试](http://list.youku.com/albumlist/show/id_51742106.html)
 
