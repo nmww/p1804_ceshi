@@ -6,7 +6,7 @@ cimg = f.read()
 print(cimg)
 f.close()
 
-f = open('2.jpg','wb+')
+f = open('2.txt','wb+')
 f.write(cimg)
 f.close()
 
