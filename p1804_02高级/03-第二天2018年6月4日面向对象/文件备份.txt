@@ -1,0 +1,16 @@
+
+of_name = input('请输入要复制的文件名:')
+of = open(of_name,'r')
+
+p = of_name.rfind('.')
+nf_name = of_name[:p]+'副本'+of_name[p:]
+nf = open(nf_name,'w')
+
+while True:
+	c = of.read(1024)
+	if len(c)==0:
+		break
+	nf.write(c)
+
+of.close()
+nf.close()
