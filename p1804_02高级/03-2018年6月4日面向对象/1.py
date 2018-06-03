@@ -1,3 +1,5 @@
+import tab
+import sys
 
 class Cat:
     def eat():
@@ -7,4 +9,5 @@ class Cat:
         print("")
 
 c = Cat()
-c.
+
+
