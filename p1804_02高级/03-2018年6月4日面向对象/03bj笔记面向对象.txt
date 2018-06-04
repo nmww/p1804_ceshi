@@ -1,4 +1,10 @@
 
+1、ubuntu 系统 及时的 镜像备份，每周一次
+2、github.com; 配置个人的仓库，每日及时的提交
+		关注：https://github.com/nmww/p1804_ceshi
+3、
+
+
 概念
 	面向过程
 		具体的每一步骤
