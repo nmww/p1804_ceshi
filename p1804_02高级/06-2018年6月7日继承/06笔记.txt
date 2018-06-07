@@ -1,0 +1,85 @@
+
+私有
+	属性
+		无法直接访问，通过get，set操作
+	方法
+		发短信案例 -  三维的案例，生孩子的私有方法
+
+__del__(self)
+	删除对象被调用（对象没有任何引用）
+	程序结束自动调用
+		析构保存：https://www.cnblogs.com/greatkyle/p/6796976.html?utm_source=itdadao&utm_medium=referral
+
+		
+
+测量对象引用计数方式
+	import sys
+  class T:
+	    pass
+  t = T()
+  print (sys.getrefcount(t))  #比实际数大一
+
+判断对象是否属于某个类
+	isinstance(t,T)  # 对象t如果属于类T，返回True，否则Flase
+
+单继承
+	代码重用， 父类-子类
+	class Animal(object):
+	class Dog(Animal):
+	子类->父类->父类->父类 （子类拥有连续的父类所有属性和方法）
+
+多继承
+	class Base(object):  #带 object属于‘新式类’ ，不带系统默认也有，但是属于快过时的经典类。
+	#所以，建议 基础类都要带着(object)
+	class A(Base):
+	class B(Base):
+	class C(A,B):  #多继承，逗号连接，多个
+	注意：
+		多继承，方法重写的情况下，具体执行哪一个；
+		类名.__mro__  # (查询类的调用过程) C.__mro__
+		尽量不要在类里边出现相同的方法
+
+多态
+	两个类，两个对象， 通过函数调用的时候，才知道执行什么方法；
+	封装、继承、多态
+
+
+练习：
+============
+1.创建一个学生类
+2.初始化学生类的属性： 名字，性别，年龄，成绩字典
+3.添加一个方法： 增加/录入成绩  （‘语文’：60）
+4.创建3个学生
+5.通过循环给每个学生，录入成绩，包括（语文，数据，英语，政治，计算机）
+6.用 print 打印输出每个学生对象的 详细信息包含成绩 str
+7.把打印输出的内容，保存到文件里边
+
+
+
+
+常见错误：
+============
+	Traceback (most recent call last):
+  File "D:/pythonClass/p1804_02/p06_私有属性和方法.py", line 15, in <module>
+    print (xiaohua.__name)
+AttributeError: 'People' object has no attribute '__name'
+===============
+Exception ignored in: <bound method Animal.__del__ of <__main__.Animal object at 0x0067BDB0>>
+Traceback (most recent call last):
+  File "D:/pythonClass/p1804_02/p06_del系统删除对象方法.py", line 19, in __del__
+NameError: name 'open' is not defined
+===============
+Exception ignored in: <bound method Animal.__del__ of <__main__.Animal object at 0x01D2B490>>
+Traceback (most recent call last):
+  File "D:/pythonClass/p1804_02/p06_del系统删除对象方法.py", line 21, in __del__
+ValueError: I/O operation on closed file.
+==============
+
+
+
+
+
+
+	
+
+
