@@ -25,6 +25,7 @@ __del__(self)
 	class Animal(object):
 	class Dog(Animal):
 	子类->父类->父类->父类 （子类拥有连续的父类所有属性和方法）
+	子类获得父类的（私有属性，和私有方法）  密码。
 
 多继承
 	class Base(object):  #带 object属于‘新式类’ ，不带系统默认也有，但是属于快过时的经典类。
