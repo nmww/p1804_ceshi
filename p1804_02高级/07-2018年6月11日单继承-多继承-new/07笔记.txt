@@ -19,3 +19,13 @@
 		super(子类名, self).父类方法名(参数)
 		super().父类方法名(参数)
 
+实例/类：  属性、方法
+	实例 属性  ： 实例成员方法中 self.定义
+		实例属性 与 类属性 同名了，会暂时屏蔽掉 类属性；
+		同名实例属性删除后， 类属性重新可以访问。
+	类   属性  ： 类中直接 定义变量作为类属性，类名.变量 直接访问
+	实例 方法  ：
+	类  方法：   1）类直接调用 类方法；  2） 通过类方法 修改 类属性 
+
+argument
+TypeError: say_chinese() missing 1 required positional argument: 'self'
