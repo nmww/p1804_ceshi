@@ -1,0 +1,2 @@
+def cc():
+    print ('c')
