@@ -1,0 +1,2 @@
+def bb():
+    print ('b')
