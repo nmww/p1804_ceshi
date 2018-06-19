@@ -1,0 +1,16 @@
+
+
+vim python ide env:
+https://github.com/ets-labs/python-vimrc
+rm -rf ~/.vim
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/master/setup.sh)"
+~/.vim/bundle/YouCompleteMe/install.py --clang-completer
+
+
+error:
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'klen/python-mode'
+Plugin 'scrooloose/syntastic'
+
+
+

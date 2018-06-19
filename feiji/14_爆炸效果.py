@@ -140,7 +140,7 @@ def key_control(hero):
                 move_x = -move_step
             elif event.key == pygame.K_RIGHT:
                 #右方向键则加一
-                move_x = move_step
+                move_x = move_step  
             elif event.key == pygame.K_UP:
                 #类似了
                 move_y = -move_step
