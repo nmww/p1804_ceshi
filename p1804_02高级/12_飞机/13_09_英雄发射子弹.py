@@ -7,8 +7,8 @@ class HeroPlane(object):
         self.screen = screen  # 创建的窗口 对象
         self.x = (400-100)/2
         self.y = 350
-        self.w = 100
-        self.h = 124
+        self.w = 10
+        self.h = 12
         self.img_path = img_path
         self.hero_plane = pygame.image.load(self.img_path)#飞机图片
         # 定义好的位置，和尺寸
@@ -21,21 +21,24 @@ class HeroPlane(object):
         # 显示子弹
         for i in self.bullet_list:
             i.display()#子弹的对象.display()
+            i.move()
 
     def fire(self):
-        self.bullet_list.append(Bullet('./images/bullet.png', self.screen))
+        self.bullet_list.append(Bullet('./images/bullet.png', self.screen, self.rect.x, self.rect.y))
 
 class Bullet(object):
     '''这是 子弹 的抽象类'''
-    def __init__(self, img_path, screen):
+    def __init__(self, img_path, screen, x, y):
         self.screen = screen
-        self.x = (400-100)/2
-        self.y = 350
+        self.x = x #(400-100)/2
+        self.y = y #350
         self.img_path = img_path
         self.bullet = pygame.image.load(self.img_path)#子弹图片
 
     def display(self):
         self.screen.blit(self.bullet, (self.x, self.y))#设置子弹
+    def move(self):
+        self.y -= 2
 
 def key_control(hero, move_step):
     # 游戏事件的监听 控制
@@ -47,15 +50,14 @@ def key_control(hero, move_step):
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE:
                 hero.fire()
+        elif event.type == pygame.KEYUP:
+            pass
+
         #elif event.type == pygame.KEYDOWN:
         #     if event.key == pygame.K_UP:
-        #         rect.y -= move_step
         #     elif event.key == pygame.K_DOWN:
-        #         rect.y += move_step
         #     elif event.key == pygame.K_LEFT:
-        #         rect.x -= move_step
         #     elif event.key == pygame.K_RIGHT:
-        #         rect.x += move_step
         # elif event.type == pygame.KEYUP:
         #     pass
 
