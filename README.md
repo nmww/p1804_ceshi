@@ -27,7 +27,7 @@
 
 [阿里ACE北京官方认证钉钉群](https://raw.githubusercontent.com/nmww/p1804_ceshi/master/%E9%98%BF%E9%87%8C%E4%BA%91ACE%E5%8C%97%E4%BA%AC.png)
 
-<img src="https://raw.githubusercontent.com/nmww/p1804_ceshi/master/%E9%98%BF%E9%87%8C%E4%BA%91ACE%E5%8C%97%E4%BA%AC.png"  height="495" width="330">
+<img src="https://raw.githubusercontent.com/nmww/p1804_ceshi/master/%E9%98%BF%E9%87%8C%E4%BA%91ACE%E5%8C%97%E4%BA%AC.png"  height="500" width="430">
 
 ***
 
