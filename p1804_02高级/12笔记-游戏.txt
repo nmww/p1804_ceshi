@@ -1,0 +1,12 @@
+
+
+安装 pygame
+$ sudo pip3 install pygame 
+	注：
+		1）windows下没有sudo，所以不需要添加； 
+		2） 如果pip3没有，需要先安装
+验证安装
+$ python3 -m pygame.examples.aliens
+
+
+
