@@ -60,8 +60,11 @@ class HeroPlane(object):
         self.screen.blit(self.hero_plane, self.rect)#设置飞机
         # 显示子弹
         for i in self.bullet_list:
+            if i.judge():
+                self.bullet_list.remove(i)
             i.display()#子弹的对象.display()
             i.move()
+
 
     def fire(self):
         self.bullet_list.append(Bullet('./images/bullet.png', self.screen, self.rect.x, self.rect.y))
@@ -79,6 +82,14 @@ class Bullet(object):
         self.screen.blit(self.bullet, (self.x, self.y))#设置子弹
     def move(self):
         self.y -= 2
+
+    def judge(self):
+        '''判断子弹是否飞出了屏幕之外'''
+        if self.y < 0:
+            return True #表示子弹飞出了屏幕
+        else:
+            return False
+
 
 def key_control(hero, move_step):
     # 游戏事件的监听 控制
