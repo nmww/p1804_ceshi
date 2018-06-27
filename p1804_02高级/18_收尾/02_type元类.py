@@ -20,18 +20,20 @@
 
 #3.type 带函数类  方法
 Foo = type('Foo', (), {'bar':True})
-print (Foo)
+#print (Foo)
+
 def echo_bar(self):
     print(self.bar)
 
 #让FooChild类中的echo_bar属性，指向了上面定义的函数
-FooChild = type('FooChild', (Foo,), {'echo_bar1': echo_bar})
+FooChild = type('FooChildName', (Foo,), {'echo_bar1': echo_bar})
 
 b = FooChild()
 print(b)
-print(b.bar)
-print(b.echo_bar1())
-print(b.echo_bar1)
+print(b.__class__)
+#print(b.bar)
+#print(b.echo_bar1())
+#print(b.echo_bar1)
 
 
 
